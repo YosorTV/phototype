@@ -1,0 +1,11 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+$Montserrat: 'Montserrat', sans-serif;
+$Modak: 'Modak', cursive;
+// COLORS
+$white: #fff;
+$black: #000;
+$green: #0BAB64;
+$lightGreen: #3BB78F;
+$lightGreenGradient:linear-gradient(to left, $green, $lightGreen);
