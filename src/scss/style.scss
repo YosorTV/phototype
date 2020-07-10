@@ -34,6 +34,11 @@ body{
       font-size: 62px !important;
     }
   }
+  .gallery {
+    width: 94%;
+    row-gap: 2rem;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  }
   .gallery-info{
     p{
       font-size: 18px !important;
@@ -53,8 +58,5 @@ body{
       padding: 1rem;
     }
   }
-  .gallery {
-    width: 94%;
-    row-gap: 2rem;
-  }
+
 }

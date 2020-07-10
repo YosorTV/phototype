@@ -15,7 +15,7 @@ import source from 'vinyl-source-stream';
 import buffer from 'vinyl-buffer';
 import imagemin from "gulp-imagemin";
 import ghpages from 'gh-pages';
-			 ghpages.publish('dist', function(err) {});
+			 ghpages.publish('phototype', function(err) {});
 			 browsersync.create();
 
 let projectFolder = require("path").basename(__dirname);
